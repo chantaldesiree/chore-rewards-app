@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingTop="30dip"
+            android:paddingBottom="50dip"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/tvChores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Chores"
+                android:textColor="@color/purple_500"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnPersonalRewards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/purple_500"
+                android:text="REWARDS!"
+                android:textSize="9sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAddChore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:backgroundTint="#C6D3D3D3"
+                    android:textColor="@color/purple_500"
+                    android:text="Add Chore"
+                    android:layout_marginRight="10dp"
+                    android:textSize="9sp" />
+
+                <Button
+                    android:id="@+id/btnRemoveChore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:backgroundTint="#C6D3D3D3"
+                    android:textColor="@color/purple_500"
+                    android:layout_marginLeft="10dp"
+                    android:text="Remove Chore"
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvDaily"
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
+                android:layout_marginTop="5dip"
+                android:divider="#00000000"
+                android:dividerHeight="0px"
+                android:choiceMode="singleChoice"
+                android:drawSelectorOnTop="false" />
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dip"
+                android:layout_weight=".3"
+                android:text="GO BACK HOME"
+                android:backgroundTint="@color/purple_500"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
