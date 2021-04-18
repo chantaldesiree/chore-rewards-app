@@ -19,13 +19,13 @@ If this is the first time a user is signing in, they will be asked to create an 
 
 Once the app launches, the main page of the app contains any relevant data for the user. The goal that the family is working towards, the number of points they need to reach that goal, as well as a visual representation of their progress towards that goal. To collect chore points, a user taps on their name, they will be directed to a page containing the chores that have been entered for that household.
 
-To total number of points a family has collected over the tenure of using the app will appear on the bottom right-hand corner.
+To total number of points a family has collected over the tenure of using the app will appear on the bottom right-hand corner. When a family member has collected enough points to redeem for a reward set by the family, they can just click on the reward they would like to receive. 
 
 ![](https://github.com/chantaldesiree/chore-rewards-app/blob/main/assets/010-exchange-for-reward.png)
 ![](https://github.com/chantaldesiree/chore-rewards-app/blob/main/assets/011-reward-button.png)
 ![](https://github.com/chantaldesiree/chore-rewards-app/blob/main/assets/012-reward-list.png)
 
-When a family member has collected enough points to redeem for a reward set by the family, they can just click on the reward they would like to receive. They are the directed to a page where they select their name from the dropdown menu and tap 'Redeem Reward.' Once this occurs, this reward will be added to their reward list inside of the users chore page. If you navigate to that page and click the 'Rewards' button, you will see all of the rewards the user has available to be exercised as a reward. 
+They are the directed to a page where they select their name from the dropdown menu and tap 'Redeem Reward.' Once this occurs, this reward will be added to their reward list inside of the users chore page. If you navigate to that page and click the 'Rewards' button, you will see all of the rewards the user has available to be exercised as a reward. 
 
 ![](https://github.com/chantaldesiree/chore-rewards-app/blob/main/assets/013-reward-redeemed.png)
 
